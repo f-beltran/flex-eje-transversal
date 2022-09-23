@@ -1,0 +1,74 @@
+.contenedor-flexible-1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+
+}
+.contenedor-flexible-2{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+.contenedor-flexible-3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.contenedor-flexible-4{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+}
+
+/* COMENTARIO */
+.contenedor-flexible-5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenedor-flexible-6{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.contenedor-flexible-7{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contenedor-flexible-8{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+/* COMENTARIO */
+.contenedor-flexible-9{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.contenedor-flexible-10{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+.contenedor-flexible-11{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+.contenedor-flexible-12{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.elemento-flexible{
+    flex-shrink: 0;
+}
